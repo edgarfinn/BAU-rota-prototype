@@ -1,0 +1,165 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-size: 14px;
+}
+
+section, div, header {
+  box-sizing: border-box;
+}
+
+.section-rota-generator {
+  padding: 1rem;
+  border: 3px solid red;
+  width: 100%;
+  height: 100%;  
+}
+
+.content-wrapper {
+  position: relative;
+  border: 3px solid green;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* ===== SECTION CALENDAR ===== */
+
+.section-calendar {
+  border: 3px solid tomato;
+  flex: 1.5;
+}
+
+.calendar-header {
+  width: 100%;
+  height: 5%;
+  border: 3px solid blue;
+  text-align: center;
+}
+
+.weeks-wrapper {
+  height: 95%;
+  border: 3px solid pink;
+}
+.period, .allocated-staff, .week {
+    display: inline-block;
+}
+.week {
+  width: 50%;
+  height: 100%;
+}
+
+.week-one {
+  float: left;
+}
+
+.week-two {
+  float: right;
+}
+
+.week-header {
+  height: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+.days-wrapper {
+  height: 97%;
+  border: 3px solid black;
+}
+
+.calendar-day {
+  height: 20%;
+}
+
+.day-header {
+  height:20%;
+  border: 2px solid green;
+  text-align: center;
+}
+
+.day-half {
+  border-bottom: 3px solid grey;
+  height: 40%;
+}
+
+.period {
+  border-right: 2px solid grey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+.allocated-staff {
+  float: right;
+  width: 80%;
+  height: 100%;
+}
+
+/* === END SECTION CALENDAR === */
+/* ====== SECTION  WHEEL ====== */
+
+.section-wheel {
+  border: 1px solid blue;
+  flex: 1.5;
+  height: 100%;
+}
+
+.wheel {
+  margin: auto;
+  border: 3px solid pink;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.control-panel {
+  border: 3px solid orange;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+
+/* ===== END SECTION WHEEL ==== */
+/* ======= SECTION LIST ======= */
+
+.staff-list-wrapper {
+  margin-left: 1rem;
+  flex: 1;
+  height: 100%;
+  border: 3px solid orange;
+}
+
+.staff-item {
+  padding: 1rem;
+  text-align: center;
+  border: 3px solid grey;
+  height: 1rem;
+}
+
+/* ===== END SECTION LIST ===== */
+
+
